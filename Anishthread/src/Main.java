@@ -7,13 +7,21 @@ public class Main {
         System.out.println("Hello and welcome Anish!");
 
         for (int i = 1; i <= 5; i++) {
-            System.out.print(i+" ");
+            System.out.println(i);
         }
-           //Creating a Object of ThreadInterface //
-            ThreadInterFace t1=new ThreadInterFace();
+//           //Creating a Object of ThreadInterface //
+//            ThreadInterFace t1=new ThreadInterFace();
+//
+//         //it will Pass the t1 object in Thread Class //
+//             Thread th=new Thread(t1);  //Mandatory //
+//              th.start();
 
-         //it will Pass the t1 object in Thread Class //
-             Thread th=new Thread(t1);  //Mandatory //
-              th.start();
+          //Create a MultiThreading (Thread 1 which is Test1)
+        Test1 t1=new Test1();
+          t1.start();
+        //Create a MultiThreading (Thread 2 which is Test2)
+          Test2 t2=new Test2();
+          t2.start();
+
     }
 }
