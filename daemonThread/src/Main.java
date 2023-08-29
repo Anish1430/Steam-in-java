@@ -9,12 +9,23 @@ public class Main {
 //          d1.setDaemon(true);
 //          d1.start();
 
-          anonymous m1=new anonymous() {
-             // @Override
-              public void show() {
-                  System.out.println("AnonyMous inner class has no name");
+//          anonymous m1=new anonymous() {
+//             // @Override
+//              public void show() {
+//                  System.out.println("AnonyMous inner class has no name");
+//              }
+//          };
+//            m1.show();
+          UsingAbstract u1=new UsingAbstract() {
+              @Override
+              void show() {
+                     for(int i=1;i<=5;i++) {
+                         System.out.print(i+" ");
+                     }
+                      System.out.println();
+                  System.out.println("Using Abstract class ");
               }
           };
-            m1.show();
+             u1.show();
     }
 }
