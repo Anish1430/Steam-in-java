@@ -1,0 +1,3 @@
+ interface anonymous {
+      void show();
+}
