@@ -39,8 +39,25 @@ public class Main {
 //              }
 //          };
 //              obj.show();
+//
+//        lambdaExpre obj= (a,b) -> (a * b);
+//        System.out.println(obj.show(10,20)+" "+"This is for Lambda expression");
+//
 
-        lambdaExpre obj= (a,b) -> (a * b);
-        System.out.println(obj.show(10,20)+" "+"This is for Lambda expression");
+        //Create a Runnable
+        Runnable thread1=() -> {
+            for(int i=1;i<=10;i++) {
+                System.out.println("Value of i is "+" "+i);
+              try {
+                  Thread.sleep(1000);
+              }catch (Exception e) {
+                    System.out.println("This is a Exception in java"+" "+e);
+              }
+            }
+        };
+              Thread t1=new Thread(thread1);
+                t1.setName("Anish");
+                t1.start();
+
         }
 }
