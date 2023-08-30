@@ -56,8 +56,9 @@ public class Main {
             }
         };
               Thread t1=new Thread(thread1);
-                t1.setName("Anish");
-                t1.start();
+               Thread.currentThread().setName("Anish");  //for set the Main Thread name
+                    System.out.println(Thread.currentThread().getName()); //get The Thread name.
+                   t1.start();
 
         }
 }
