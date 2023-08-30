@@ -1,5 +1,4 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args)   {
 //
@@ -32,13 +31,17 @@ public class Main {
 //            System.out.println("lambda Expression is created in java"+" "+a);
 //        };
 //          obj.show(10);
-          anonymous obj=new anonymous() {
-              @Override
-              public void show() {
-                  //Inner class(which type Anonymous)
-                   System.out.println("Anonymous inner class is created  which has no name");
-              }
-          };
-              obj.show();
+//          anonymous obj=new anonymous() {
+//              @Override
+//              public void show() {
+//                  //Inner class(which type Anonymous)
+//                   System.out.println("Anonymous inner class is created  which has no name");
+//              }
+//          };
+//              obj.show();
+
+        lambdaExpre obj= (a,b)->
+            System.out.println("Its is just like Lambda Expression in java"+" "+a * b);
+                obj.show(5,10);
         }
 }
