@@ -15,17 +15,30 @@ public class Main {
 //                  System.out.println("AnonyMous inner class has no name");
 //              }
 //          };
-//            m1.show();
-          UsingAbstract u1=new UsingAbstract() {
+////            m1.show();
+//          UsingAbstract u1=new UsingAbstract() {
+//              @Override
+//              void show() {
+//                     for(int i=1;i<=5;i++) {
+//                         System.out.print(i+" ");
+//                     }
+//                      System.out.println();
+//                  System.out.println("Using Abstract class ");
+//              }
+//          };
+//             u1.show();
+//
+//        lambdaExpre obj= (a) -> {
+//            System.out.println("lambda Expression is created in java"+" "+a);
+//        };
+//          obj.show(10);
+          anonymous obj=new anonymous() {
               @Override
-              void show() {
-                     for(int i=1;i<=5;i++) {
-                         System.out.print(i+" ");
-                     }
-                      System.out.println();
-                  System.out.println("Using Abstract class ");
+              public void show() {
+                  //Inner class(which type Anonymous)
+                   System.out.println("Anonymous inner class is created  which has no name");
               }
           };
-             u1.show();
-    }
+              obj.show();
+        }
 }
