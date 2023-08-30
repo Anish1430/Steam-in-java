@@ -40,8 +40,10 @@ public class Main {
 //          };
 //              obj.show();
 
-        lambdaExpre obj= (a,b)->
-            System.out.println("Its is just like Lambda Expression in java"+" "+a * b);
-                obj.show(5,10);
+        lambdaExpre obj= (a,b) -> {
+            int sum = a * b;
+            System.out.println("The output of the Lambda Expression is" + " " + sum);
+        };
+             obj.show(10,20);
         }
 }
