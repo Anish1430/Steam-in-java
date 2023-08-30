@@ -1,4 +1,4 @@
 public interface lambdaExpre {
-         void  show(int a,int b);
+         int show(int a, int b);
 
 }

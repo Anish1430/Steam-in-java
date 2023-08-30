@@ -40,10 +40,7 @@ public class Main {
 //          };
 //              obj.show();
 
-        lambdaExpre obj= (a,b) -> {
-            int sum = a * b;
-            System.out.println("The output of the Lambda Expression is" + " " + sum);
-        };
-             obj.show(10,20);
+        lambdaExpre obj= (a,b) -> (a * b);
+        System.out.println(obj.show(10,20)+" "+"This is for Lambda expression");
         }
 }
