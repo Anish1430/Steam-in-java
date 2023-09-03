@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -26,8 +27,18 @@ public class Main {
                  list1.add(20);
                  list1.add(30);
                  list1.add(40);
+        System.out.println("1st Way of List Creation");
            System.out.println(list1);
 
+     //2nd way of creating List in Stream...
+         List<Integer> list2=List.of(10,20,30,40,50);
+            System.out.println("2nd Way of List Creation in Stream");
+           System.out.println(list2);
 
+        //3rd  way of creating List in Stream...
+
+        List<Integer> list3= Arrays.asList(10,20,30,40,50);
+          System.out.println("3rd way of creating List in Stream");
+          System.out.println(list3);
     }
 }
