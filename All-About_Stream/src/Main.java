@@ -40,5 +40,9 @@ public class Main {
         List<Integer> list3= Arrays.asList(10,20,30,40,50);
           System.out.println("3rd way of creating List in Stream");
           System.out.println(list3);
+
+     /* Using Filter Method in Stream.
+          Filter is Used for the logic means it Returns a boole
+      */
     }
 }
