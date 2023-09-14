@@ -8,6 +8,7 @@ public class UserManagementAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UserManagementAppApplication.class, args);
+		System.out.println("Anish is Creating an App");
 	}
 
 }
