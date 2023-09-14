@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.Anish</groupId>
-	<artifactId>Todo-App</artifactId>
+	<artifactId>User-Management-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Todo_App</name>
-	<description>Todo App  for CRUD Operation</description>
+	<name>User-Management-App</name>
+	<description>User Management Using Spring Boot</description>
 	<properties>
 		<java.version>20</java.version>
 	</properties>

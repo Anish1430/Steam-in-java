@@ -1,10 +1,10 @@
-package com.Anish.TodoApp;
+package com.Anish.User.Management.App;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TodoAppApplicationTests {
+class UserManagementAppApplicationTests {
 
 	@Test
 	void contextLoads() {
